@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+    background-size: auto 100vh;
+    font-family: Verdana; 
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: #5eb9ff;
+  }
+  
+  .menu li{
+    list-style: none;  
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;  
+  }
+  
+  a {
+    color: #030078;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    color: white;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
